@@ -1,0 +1,35 @@
+.nav {
+  height: 113px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 50px 0 50px;
+  border-bottom: 4px solid rgb(235, 235, 235);
+
+  &__logo {
+    width: 100px;
+    height: 82.77px;
+  }
+
+  &__links {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    &__link {
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: 100;
+      color: black;
+    }
+  }
+
+  &__login {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 100;
+    width: 100px;
+  }
+}

@@ -1,0 +1,13 @@
+//IMPORT ALL SCSS FILES HERE FOR COMPILING
+//basic site structures and universal styles
+@import "structure.scss";
+@import "ad.scss";
+@import "nav.scss";
+@import "footer.scss";
+
+//individual page styles
+@import "../pages/home/home.scss";
+@import "../pages/pricing/pricing.scss";
+@import "../pages/order/order.scss";
+@import "../pages/design-service/design-service.scss";
+@import "../pages/contact/contact.scss";

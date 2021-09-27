@@ -1,0 +1,76 @@
+.contact {
+  width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+
+  &__name {
+    width: 50%;
+    margin-bottom: 20px;
+    &__title {
+      font-weight: 100;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    &__field {
+      border: 1px solid lightgray;
+      padding: 12px;
+      width: 98%;
+    }
+  }
+  &__email {
+    width: 50%;
+    margin-bottom: 20px;
+    &__title {
+      font-weight: 100;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    &__field {
+      border: 1px solid lightgray;
+      padding: 12px;
+      width: 98%;
+    }
+  }
+  &__phone {
+    width: 100%;
+    &__title {
+      font-weight: 100;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    &__field {
+      border: 1px solid lightgray;
+      padding: 12px;
+      width: 100%;
+    }
+  }
+  &__message {
+    width: 100%;
+    margin-bottom: 20px;
+    &__title {
+      font-weight: 100;
+      font-size: 20px;
+      margin-bottom: 5px;
+    }
+    &__field {
+      border: 1px solid lightgray;
+      padding: 12px;
+      width: 100%;
+    }
+  }
+  &__submit {
+    background-color: #3e85c6;
+    color: white;
+    padding: 15px;
+    font-weight: 100;
+    border: none;
+    width: fit-content;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+      sans-serif;
+    font-size: 20px;
+    margin: 0 auto;
+  }
+}

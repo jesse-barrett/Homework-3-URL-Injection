@@ -1,0 +1,12 @@
+.ad {
+  background-color: #7aa6bd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+
+  &__text {
+    color: white;
+    margin-bottom: 0px;
+  }
+}

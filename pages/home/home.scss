@@ -1,0 +1,47 @@
+.hero {
+  background-image: url(../img/home-hero.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 420px;
+  margin-bottom: 30px;
+}
+
+.buttons {
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+
+  &__button {
+    text-decoration: none;
+    color: white;
+    background-color: #5a8d9f;
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+}
+
+.home-title {
+  text-align: center;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.columns {
+  display: flex;
+  justify-content: center;
+
+  &__column {
+    width: 40%;
+    padding: 10px;
+
+    &__text {
+      font-size: 22px;
+      font-weight: 100;
+      line-height: 30px;
+    }
+  }
+}

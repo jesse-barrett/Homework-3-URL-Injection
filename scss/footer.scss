@@ -1,0 +1,65 @@
+.footer {
+  background-color: #a1d49c;
+  height: 269px;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+
+  &__links {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    &__link {
+      color: black;
+      font-weight: 100;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+
+  &__mailing {
+    width: 40%;
+
+    &__title {
+      color: black;
+      font-weight: 400;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    &__form {
+      margin-bottom: 20px;
+      &__field {
+        padding: 15px 20px;
+        border: none;
+        font-size: 20px;
+        font-weight: 100;
+        width: 70%;
+        margin-right: 0px;
+        height: 49px;
+      }
+      &__button {
+        background-color: #3e85c6;
+        width: 30%;
+        color: white;
+        font-size: 20px;
+        border: none;
+        margin-left: -4px;
+        height: 49px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+        font-weight: 400;
+      }
+    }
+
+    &__address {
+      font-weight: 100;
+      float: right;
+      line-height: 30px;
+      font-size: 20px;
+      text-align: right;
+    }
+  }
+}
